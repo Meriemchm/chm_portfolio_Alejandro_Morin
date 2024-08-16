@@ -43,27 +43,29 @@ const NavBar = () => {
       {show && (
         <ul
           data-aos="fade-left"
-          className={`bg-second text-white flex flex-col justify-center items-start absolute top-0 right-0 w-1/2 h-screen transition-transform transform ${
+          className={`bg-second text-white flex flex-col justify-start items-start absolute top-0 right-0 w-1/2 h-screen transition-transform transform ${
             show ? "translate-x-0" : "translate-x-full"
           } duration-300 ease-in-out`}
         >
-          {Navlink.map(({ id, link }) => {
-            return (
-              <li
-                key={id}
-                className="px-6 py-4 cursor-pointer md:text-xl hover:scale-105 duration-200 uppercase"
-              >
-                <Link
-                  to={link}
-                  smooth={true}
-                  duration={500}
-                  onClick={() => setShow(!show)}
+          <div className=" flex flex-col justify-center items py-36">
+            {Navlink.map(({ id, link }) => {
+              return (
+                <li
+                  key={id}
+                  className="px-6 py-4 cursor-pointer md:text-xl hover:scale-105 duration-200 uppercase"
                 >
-                  {link}
-                </Link>
-              </li>
-            );
-          })}
+                  <Link
+                    to={link}
+                    smooth={true}
+                    duration={500}
+                    onClick={() => setShow(!show)}
+                  >
+                    {link}
+                  </Link>
+                </li>
+              );
+            })}
+          </div>
         </ul>
       )}
     </div>
