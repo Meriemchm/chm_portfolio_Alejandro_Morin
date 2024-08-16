@@ -346,7 +346,6 @@ export const formItem = [
     name: "firstName",
     type: "text",
     placeholder: "First Name",
-    pattern: "[A-Za-z]+",
     categorie: "input",
   },
   {
@@ -354,7 +353,6 @@ export const formItem = [
     name: "lastName",
     type: "text",
     placeholder: "Last Name",
-    pattern: "[A-Za-z]+",
     categorie: "input",
   },
   {
@@ -362,7 +360,6 @@ export const formItem = [
     name: "email",
     type: "text",
     placeholder: "Email",
-    pattern: "[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}",
     categorie: "input",
   },
   {
