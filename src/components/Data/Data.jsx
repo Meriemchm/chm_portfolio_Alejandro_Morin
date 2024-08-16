@@ -38,7 +38,7 @@ export const SocialLinks = [
         <img src={mail} alt="mail" />
       </>
     ),
-    href: "mailto:alejandro.p.morin@gmail.com ",
+    href: "mailto:alejandro.p.morin@gmail.com?subject=Inquiry&body=Hello, I have a question about...",
   },
 ];
 

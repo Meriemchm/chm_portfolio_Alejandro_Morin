@@ -20,7 +20,7 @@ const ProjectTab = () => {
   };
   return (
     <>
-      <div className=" md:h-full  overflow-x-scroll md:overflow-x-hidden  w-full ">
+      <div className="mx-auto md:h-full  overflow-x-scroll md:overflow-x-hidden  w-full ">
         <div className="flex flex-row  gap-5 select-none  ">
           {menuItemProject.map((item, id) => {
             return (
