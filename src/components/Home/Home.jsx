@@ -70,7 +70,7 @@ const Home = () => {
             rel="noreferrer"
             className="flex gap-2 text-primary hover:text-primary/80 py-12"
           >
-            <h2 className="self-center font-bold underline md:text-xl text-lg ">
+            <h2 className="self-center font-bold underline md:text-2xl text-xl ">
               Echa un vistazo a mis certificados.
             </h2>
           </a>
