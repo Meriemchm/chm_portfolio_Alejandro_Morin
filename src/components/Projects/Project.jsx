@@ -2,10 +2,11 @@ import React, { useState } from "react";
 import { projects } from "../Data/Data";
 import share from "../../assets/share.svg";
 
-const Project = () => {
+const Project = ({ category }) => {
+  const items = projects.filter((item) => item.category === category);
   return (
     <div className="mx-auto grid grid-cols-1 xl:grid-cols-3 gap-6 text-center py-8 px-0 justify-center items-center ">
-      {projects.map(({ id, src, title, description, hdemo }) => {
+      {items.map(({ id, src, title, description, hdemo }) => {
         const [isTruncated, setIsTruncated] = useState(true);
 
         const toggleTruncate = () => {

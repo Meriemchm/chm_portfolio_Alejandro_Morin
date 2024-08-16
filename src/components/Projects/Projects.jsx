@@ -1,5 +1,5 @@
 import React from "react";
-import Project from "./Project";
+import ProjectTab from "./ProjectTab";
 const Projects = () => {
   return (
     <div
@@ -13,7 +13,7 @@ const Projects = () => {
         </p>
       </div>
 
-      <Project />
+      <ProjectTab />
     </div>
   );
 };

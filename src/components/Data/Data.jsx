@@ -65,6 +65,7 @@ export const Navlink = [
   },
 ];
 
+
 export const sideBarItem = [
   {
     id: 1,
@@ -225,6 +226,17 @@ export const techs = [
   },
 ];
 
+export const menuItemProject = [
+  {
+    id: 1,
+    title: "Design",
+  },
+  {
+    id: 2,
+    title: "Others",
+  },
+];
+
 export const projects = [
   {
     id: 1,
@@ -235,6 +247,7 @@ export const projects = [
         className="rounded-t-lg h-60 w-full object-cover"
       />
     ),
+    category:"Design",
     title: "Template",
     description: "description",
     hdemo:
@@ -249,6 +262,7 @@ export const projects = [
         className="rounded-t-lg h-60 w-full object-cover"
       />
     ),
+    category:"Design",
     title: "Ads Dashboard UI KIT",
     description: "description",
     hdemo:
@@ -263,6 +277,7 @@ export const projects = [
         className="rounded-t-lg h-60 w-full object-cover"
       />
     ),
+    category:"Design",
     title: "Remmus",
     description: "description",
     hdemo:
@@ -277,6 +292,7 @@ export const projects = [
         className="rounded-t-lg h-60 w-full object-cover"
       />
     ),
+    category:"Design",
     title: "Music Streaming web",
     description: "description",
     hdemo:
@@ -291,6 +307,7 @@ export const projects = [
         className="rounded-t-lg h-60 w-full object-cover"
       />
     ),
+    category:"Design",
     title: "Protagonista Digital Agency",
     description: "description",
     hdemo:
