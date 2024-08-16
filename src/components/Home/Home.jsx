@@ -57,7 +57,12 @@ const Home = () => {
             </button>
             <button className="bg-tansparent  border-[1px] border-second text-four px-5 py-2 rounded-md text-bold duration-200 hover:scale-105  ">
               {" "}
-              <a href="/" download="cv.zip" target="_blank" rel="noreferrer">
+              <a
+                href="/CV.zip"
+                download="CV.zip"
+                target="_blank"
+                rel="noreferrer"
+              >
                 mi currículum
               </a>
             </button>
