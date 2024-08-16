@@ -26,7 +26,7 @@ const ProjectTab = () => {
             return (
               <div key={id} onClick={() => handleClick(id)}>
                 <li
-                  className={`flex border md:py-5 px-3 py-3 md:px-5 justify-start items-center md:gap-5 gap-2 bg-gray-100/50 rounded-lg cursor-pointer w-28  md:w-44
+                  className={`flex border md:py-5 px-3 py-3 md:px-5 justify-start items-center md:gap-5 gap-2 bg-gray-100/50 rounded-lg cursor-pointer w-32  md:w-44
                     ${active[id] ? activebg : "border-gray-200"}`}
                 >
                   <p
