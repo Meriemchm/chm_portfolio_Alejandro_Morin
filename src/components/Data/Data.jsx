@@ -7,6 +7,7 @@ import project_2 from "../../assets/project_2.svg";
 import project_3 from "../../assets/project_3.svg";
 import project_4 from "../../assets/project_4.svg";
 import project_5 from "../../assets/project_5.svg";
+import project_6 from "../../assets/project_6.svg";
 import python from "../../assets/python.svg";
 import java from "../../assets/java.svg";
 import db from "../../assets/db.svg";
@@ -20,6 +21,7 @@ import trsl from "../../assets/trsl.svg";
 import msdr from "../../assets/msdr.svg";
 import microbit from "../../assets/microbit.svg";
 import op from "../../assets/op.svg";
+import github from "../../assets/github.svg";
 
 export const SocialLinks = [
   {
@@ -30,6 +32,15 @@ export const SocialLinks = [
       </>
     ),
     href: "https://www.linkedin.com/in/alejandro-morin-a97378197",
+  },
+  {
+    id: 3,
+    mobile: (
+      <>
+        <img src={github} alt="mail" />
+      </>
+    ),
+    href: "https://github.com/Alejo-20-20",
   },
   {
     id: 2,
@@ -64,7 +75,6 @@ export const Navlink = [
     link: "Contacto",
   },
 ];
-
 
 export const sideBarItem = [
   {
@@ -247,7 +257,7 @@ export const projects = [
         className="rounded-t-lg h-60 w-full object-cover"
       />
     ),
-    category:"Design",
+    category: "Design",
     title: "Template",
     description: "description",
     hdemo:
@@ -262,7 +272,7 @@ export const projects = [
         className="rounded-t-lg h-60 w-full object-cover"
       />
     ),
-    category:"Design",
+    category: "Design",
     title: "Ads Dashboard UI KIT",
     description: "description",
     hdemo:
@@ -277,7 +287,7 @@ export const projects = [
         className="rounded-t-lg h-60 w-full object-cover"
       />
     ),
-    category:"Design",
+    category: "Design",
     title: "Remmus",
     description: "description",
     hdemo:
@@ -292,7 +302,7 @@ export const projects = [
         className="rounded-t-lg h-60 w-full object-cover"
       />
     ),
-    category:"Design",
+    category: "Design",
     title: "Music Streaming web",
     description: "description",
     hdemo:
@@ -307,8 +317,23 @@ export const projects = [
         className="rounded-t-lg h-60 w-full object-cover"
       />
     ),
-    category:"Design",
+    category: "Design",
     title: "Protagonista Digital Agency",
+    description: "description",
+    hdemo:
+      "https://www.figma.com/proto/hhYNvoaVoATFhnTczX3r3A/Protagonista---Digital-Agency-%26-Portfolio?node-id=7736-2187&t=WwXlcp2hXv49CUVg-1.",
+  },
+  {
+    id: 6,
+    src: (
+      <img
+        src={project_6}
+        alt="project-name"
+        className="rounded-t-lg h-60 w-full object-cover"
+      />
+    ),
+    category: "Design",
+    title: "Sales crm app",
     description: "description",
     hdemo:
       "https://www.figma.com/proto/hhYNvoaVoATFhnTczX3r3A/Protagonista---Digital-Agency-%26-Portfolio?node-id=7736-2187&t=WwXlcp2hXv49CUVg-1.",

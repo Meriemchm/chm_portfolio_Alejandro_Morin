@@ -55,8 +55,8 @@ const Home = () => {
             <button className="bg-tansparent  border-[1px] border-second text-four px-5 py-2 rounded-md text-bold duration-200 hover:scale-105  ">
               {" "}
               <a
-                href="/CV.zip"
-                download="CV.zip"
+                href="/mergecv.pdf"
+                // download="CV.zip"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -65,8 +65,7 @@ const Home = () => {
             </button>
           </div>
           <a
-            href="/Certificado.pdf"
-            download="Certificado.pdf"
+            href="/Certificado_merged.pdf"
             target="_blank"
             rel="noreferrer"
             className="flex gap-2 hover:text-primary py-12"
