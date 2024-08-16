@@ -20,17 +20,17 @@ const ProjectTab = () => {
   };
   return (
     <>
-      <div className="md:w-1/3 md:h-full  overflow-x-scroll  md:overflow-x-hidden ">
-        <div className="flex flex-row  gap-5 px-32 select-none ">
+      <div className=" md:h-full  overflow-x-scroll md:overflow-x-hidden  w-full ">
+        <div className="flex flex-row  gap-5 select-none  ">
           {menuItemProject.map((item, id) => {
             return (
               <div key={id} onClick={() => handleClick(id)}>
                 <li
-                  className={`flex border md:py-5 px-3 py-3 md:px-5 justify-start items-center md:gap-5 gap-2 bg-gray-100/50 rounded-lg cursor-pointer w-44
+                  className={`flex border md:py-5 px-3 py-3 md:px-5 justify-start items-center md:gap-5 gap-2 bg-gray-100/50 rounded-lg cursor-pointer w-28  md:w-44
                     ${active[id] ? activebg : "border-gray-200"}`}
                 >
                   <p
-                    className={` font-semibold capitalize text-lg  ${
+                    className={` font-semibold capitalize md:text-lg  ${
                       active[id] ? activetext : "text-gray-500"
                     }`}
                   >

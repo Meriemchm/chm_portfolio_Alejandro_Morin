@@ -3,10 +3,10 @@ import React from "react";
 const Skill = ({ Title, data }) => {
   return (
     <>
-      <h2 className={`text-bold text-2xl text-five`}>{Title}</h2>
+      <h2 className={`text-bold text-2xl text-five px-4`}>{Title}</h2>
       <div
         data-aos="fade-up"
-        className="w-full grid grid-cols-2 sm:grid-cols-4 gap-8 text-center py-8 sm:px-0 justify-center"
+        className="w-full grid grid-cols-2 sm:grid-cols-4 gap-8 text-center px-4 py-8 justify-center"
       >
         {data.map(({ id, title, src, style }) => (
           <div
@@ -18,7 +18,7 @@ const Skill = ({ Title, data }) => {
             </div>
 
             <div className="w-full text-center">
-              <p className="mt-4 text-second text-lg md:text-xl">{title}</p>
+              <p className="mt-4 text-second text-md md:text-xl">{title}</p>
             </div>
           </div>
         ))}
