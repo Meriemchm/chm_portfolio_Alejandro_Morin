@@ -343,29 +343,29 @@ export const projects = [
 export const formItem = [
   {
     id: 1,
-    name: "firstName",
+    name: "Nombre",
     type: "text",
-    placeholder: "First Name",
+    placeholder: "Nombre",
     categorie: "input",
   },
   {
     id: 2,
-    name: "lastName",
+    name: "Apellido",
     type: "text",
-    placeholder: "Last Name",
+    placeholder: "Apellido",
     categorie: "input",
   },
   {
     id: 3,
     name: "email",
     type: "text",
-    placeholder: "Email",
+    placeholder: "Correo ",
     categorie: "input",
   },
   {
     id: 4,
-    name: "message",
-    placeholder: "Message",
+    name: "Mensaje",
+    placeholder: "Mensaje",
     categorie: "textarea",
   },
 ];

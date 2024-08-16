@@ -63,7 +63,7 @@ const Contact = () => {
             })}
 
             <button className="text-white bg-second px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300">
-              Contact me
+            contáctame
             </button>
           </form>
         </div>
