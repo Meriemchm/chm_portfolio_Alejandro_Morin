@@ -68,7 +68,7 @@ const Home = () => {
             href="/Certificado_merged.pdf"
             target="_blank"
             rel="noreferrer"
-            className="flex gap-2 hover:text-primary py-12"
+            className="flex gap-2 text-primary hover:text-primary/80 py-12"
           >
             <h2 className="self-center font-bold underline md:text-xl text-lg ">
               Echa un vistazo a mis certificados.
