@@ -43,7 +43,7 @@ const NavBar = () => {
       {show && (
         <ul
           data-aos="fade-left"
-          className={`bg-second text-white flex flex-col justify-start items-start absolute top-0 right-0 w-1/2 h-screen transition-transform transform ${
+          className={`bg-second text-white flex flex-col justify-start items-start absolute top-0 right-0 w-1/2 lg:w-1/3 h-screen transition-transform transform ${
             show ? "translate-x-0" : "translate-x-full"
           } duration-300 ease-in-out`}
         >
