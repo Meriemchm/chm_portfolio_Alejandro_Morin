@@ -4,7 +4,10 @@ import Skill from "./Skill";
 
 const Skills = () => {
   const pl = techs.filter((tech) => tech.type === "Programming languages");
+  const db = techs.filter((tech) => tech.type === "Database");
   const ds = techs.filter((tech) => tech.type === "Design");
+  const fm = techs.filter((tech) => tech.type === "Framework");
+  const en = techs.filter((tech) => tech.type === "Environment");
   const othersTechs = techs.filter((tech) => tech.type === "others");
 
   return (
@@ -17,6 +20,11 @@ const Skills = () => {
         </div>
         {/* Programming languages */}
         <Skill Title="Programming languages" data={pl} />
+        <Skill Title="Database" data={db} />
+        <Skill Title="Frameworks" data={fm} />
+        <Skill Title="Environment" data={en} />
+        <Skill Title="Design" data={ds} />
+        <Skill Title="Others" data={othersTechs} />
       </div>
     </div>
   );

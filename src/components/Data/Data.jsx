@@ -2,6 +2,7 @@ import mail from "../../assets/mail.svg";
 import linkedin from "../../assets/linkedin.svg";
 import education from "../../assets/education.svg";
 import experience from "../../assets/experience.svg";
+import project_1 from "../../assets/project_1.svg";
 
 export const SocialLinks = [
   {
@@ -85,9 +86,43 @@ export const resumeItem = [
     id: 3,
     category: "Historial Laboral",
     title: "BTL & ATL Marketing Associate",
-    date: "2020-05 - 2023-02",
+    date: "2016-01 - 2016-12",
     description:
       "-Gestor de cuentas clave. -Organizador de activaciones de diferentes marcas. -Preparación de conciertos, ferias y aniversarios corporativos. -Realizar tareas ejecutivas de marketing y ventas (BTL&ATL).",
+    style: "",
+  },
+
+  {
+    id: 4,
+    category: "Educación",
+    title: "Software Engineer, Beginner programming training",
+    date: "2023-04 - 2023-10",
+    description: "",
+    style: "",
+  },
+  {
+    id: 5,
+    category: "Educación",
+    title:
+      "Software Development, Advanced technician diploma Software Development",
+    date: "2022-01 - 2023-02 ",
+    description: "",
+    style: "",
+  },
+  {
+    id: 6,
+    category: "Educación",
+    title: " Economy, Business Administration",
+    date: "2021-02 - present",
+    description: "",
+    style: "",
+  },
+  {
+    id: 7,
+    category: "Educación",
+    title: "High School Diploma",
+    date: "2003-02 - 2008-11 ",
+    description: "",
     style: "",
   },
 ];
@@ -102,19 +137,147 @@ export const techs = [
   {
     id: 2,
     src: "",
+    title: "JAVA",
+    type: "Programming languages",
+  },
+  {
+    id: 3,
+    src: "",
+    title: "JavaScript",
+    type: "Programming languages",
+  },
+  {
+    id: 4,
+    src: "",
+    title: "React",
+    type: "Framework",
+  },
+  {
+    id: 5,
+    src: "",
     title: "Figma",
-    type: "design",
+    type: "Design",
+  },
+  {
+    id: 6,
+    src: "",
+    title: "MySQL",
+    type: "Database",
+  },
+  {
+    id: 7,
+    src: "",
+    title: "Database Management",
+    type: "Database",
+  },
+  {
+    id: 8,
+    src: "",
+    title: "PyCharm",
+    type: "Environment",
+  },
+  {
+    id: 9,
+    src: "",
+    title: "Visual Studio Code",
+    type: "Environment",
+  },
+  {
+    id: 10,
+    src: "",
+    title: "Microsoft Make Code",
+    type: "others",
+  },
+  {
+    id: 11,
+    src: "",
+    title: "MS Office / Google Drive",
+    type: "others",
+  },
+  {
+    id: 12,
+    src: "",
+    title: "Slack, Trello, Chime",
+    type: "others",
+  },
+  {
+    id: 13,
+    src: "",
+    title: "Operating System Knowledge",
+    type: "others",
   },
 ];
 
 export const projects = [
   {
     id: 1,
-    src: "",
-    title: "Booki",
-    description:
-      "L'objectif était d'intégrer la maquette d'un site de planification de vacances nommé 'Booki', en respectant les spécifications fonctionnelles et techniques.",
-    hdemo: "https://dalsantosev.github.io/gitproject-3/",
+    src: (
+      <img
+        src={project_1}
+        alt="project-name"
+        className="rounded-lg h-60 w-full object-cover"
+      />
+    ),
+    title: "title",
+    description: "description",
+    hdemo:
+      "https://www.figma.com/proto/XjC8TzZZFzMUd1TV7ixUhZ/Template?node-id=15-2&t=jnK9ig6FLx1mDbZa-1",
+  },
+  {
+    id: 2,
+    src: (
+      <img
+        src={project_1}
+        alt="project-name"
+        className="rounded-lg h-60 w-full object-cover"
+      />
+    ),
+    title: "title",
+    description: "description",
+    hdemo:
+      "https://www.figma.com/proto/sEzwef47N9UPEymIQUGW1N/Ads-Dashboard-UI-KIT?node-id=121-310&t=SwW0fMUbS4EzKEUR-1.",
+  },
+  {
+    id: 3,
+    src: (
+      <img
+        src={project_1}
+        alt="project-name"
+        className="rounded-lg h-60 w-full object-cover"
+      />
+    ),
+    title: "title",
+    description: "description",
+    hdemo:
+      "https://www.figma.com/proto/k2TNlBwST4yRgnWawyGV7O/Remmus?node-id=103-2&t=bXQ2PsQf74QbtzDd-1.",
+  },
+  {
+    id: 4,
+    src: (
+      <img
+        src={project_1}
+        alt="project-name"
+        className="rounded-lg h-60 w-full object-cover"
+      />
+    ),
+    title: "title",
+    description: "description",
+    hdemo:
+      "https://www.figma.com/proto/HzwLThLF3QBuO5AB4qVf1o/Music-Streaming-web?node-id=220-17&t=noKT4aagxAhRfVwi-1.",
+  },
+  {
+    id: 4,
+    src: (
+      <img
+        src={project_1}
+        alt="project-name"
+        className="rounded-lg h-60 w-full object-cover"
+      />
+    ),
+    title: "title",
+    description: "description",
+    hdemo:
+      "https://www.figma.com/proto/hhYNvoaVoATFhnTczX3r3A/Protagonista---Digital-Agency-%26-Portfolio?node-id=7736-2187&t=WwXlcp2hXv49CUVg-1.",
   },
 ];
 

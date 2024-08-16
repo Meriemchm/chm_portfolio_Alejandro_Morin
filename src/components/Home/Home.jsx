@@ -5,7 +5,7 @@ import profile from "../../assets/profile.svg";
 
 const Home = () => {
   return (
-    <div name="Inicio" className="flex md:h-screen w-full  ">
+    <div name="Inicio" className="flex min-h-screen w-full pt-10 xl:pt-0 ">
       <div className="mx-auto flex flex-col-reverse justify-center items-center px-8 my-16 gap-8 xl:gap-0 xl:flex-row xl:my-0 xl:w-full ">
         <div
           data-aos="fade-left"

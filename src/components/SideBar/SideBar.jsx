@@ -19,35 +19,41 @@ const SideBar = () => {
     setActive(newActive);
   };
   return (
-    <>
-      <div className="flex justify-center items-center  ">
-        <div className="flex  gap-5 p-2 select-none ">
-          {sideBarItem.map((item, id) => {
-            return (
-              <div key={id} onClick={() => handleClick(id)}>
-                <li
-                  className={`flex flex-col border md:py-5 px-3 py-3 md:px-5 justify-start items-center md:gap-5 gap-2 w-44 rounded-lg cursor-pointer  
+    <div name="Currículum" className="bg-white min-h-screen">
+      <div className="max-w-screen-lg  mx-auto flex flex-col justify-center items-center h-full ">
+        <p className="text-4xl md:text-4xl font-semibold text-five text-center py-5 ">
+          Mi <span className="text-primary">Currículum</span>{" "}
+        </p>
+        <div className="flex justify-center items-center  ">
+          <div className="flex  gap-5 p-2 select-none ">
+            {sideBarItem.map((item, id) => {
+              return (
+                <div key={id} onClick={() => handleClick(id)}>
+                  <li
+                    className={`flex flex-col border md:py-5 px-3 py-3 md:px-5 justify-start items-center md:gap-5 gap-2 w-44 rounded-lg cursor-pointer  
                   ${active[id] ? activebg : "bg-third"}`}
-                >
-                  {item.icon}
-                  <p
-                    className={` text-bold capitalize 
+                  >
+                    {item.icon}
+                    <p
+                      className={` text-bold capitalize 
                     text-white
                     `}
-                  >
-                    {" "}
-                    {item.title}
-                  </p>
-                </li>
-              </div>
-            );
-          })}
+                    >
+                      {" "}
+                      {item.title}
+                    </p>
+                  </li>
+                </div>
+              );
+            })}
+          </div>
         </div>
       </div>
+
       <>
         <ResumeContainer category={sideBarItem[activeTab].title} />
       </>
-    </>
+    </div>
   );
 };
 
