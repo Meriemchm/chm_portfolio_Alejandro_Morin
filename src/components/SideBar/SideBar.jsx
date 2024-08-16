@@ -32,7 +32,7 @@ const SideBar = () => {
               return (
                 <div key={id} onClick={() => handleClick(id)}>
                   <li
-                    className={`flex flex-col border md:py-5 px-3 py-3 md:px-5 justify-start items-center md:gap-5 gap-2 w-44 rounded-lg cursor-pointer  
+                    className={`flex flex-col border md:py-5 px-3 py-3 md:px-5 justify-start items-center md:gap-5 gap-2 w-36 md:w-44 rounded-lg cursor-pointer  
                   ${active[id] ? activebg : "bg-third"}`}
                   >
                     {item.icon}
