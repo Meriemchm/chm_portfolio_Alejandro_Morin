@@ -283,7 +283,7 @@ export const projects = [
       "https://www.figma.com/proto/HzwLThLF3QBuO5AB4qVf1o/Music-Streaming-web?node-id=220-17&t=noKT4aagxAhRfVwi-1.",
   },
   {
-    id: 4,
+    id: 5,
     src: (
       <img
         src={project_5}
