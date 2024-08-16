@@ -3,7 +3,7 @@ import Project from "./Project";
 const Projects = () => {
   return (
     <div
-      data-aos="fade-up"
+      
       name="Proyecto"
       className="md:px-20 mx-auto p-4 flex flex-col  h-full w-full"
     >

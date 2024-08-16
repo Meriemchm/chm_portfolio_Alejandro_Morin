@@ -13,6 +13,7 @@ const Project = () => {
         };
         return (
           <div
+            data-aos="fade-up"
             key={id}
             className="shadow-md shadow-gray-600 bg-white rounded-lg self-start"
           >
@@ -21,7 +22,7 @@ const Project = () => {
 
               <div className="absolute inset-0 rounded-lg bg-black bg-opacity-50 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center cursor-pointer select-none">
                 <a href={hdemo} target="_blank" className="flex">
-                  En savoir plus
+                  Saber más
                 </a>
               </div>
             </div>

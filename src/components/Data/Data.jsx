@@ -7,6 +7,14 @@ import project_2 from "../../assets/project_2.svg";
 import project_3 from "../../assets/project_3.svg";
 import project_4 from "../../assets/project_4.svg";
 import project_5 from "../../assets/project_5.svg";
+import python from "../../assets/python.svg";
+import java from "../../assets/java.svg";
+import db from "../../assets/db.svg";
+import mysql from "../../assets/mysql.svg";
+import js from "../../assets/js.svg";
+import figma from "../../assets/figma.svg";
+import react from "../../assets/react.svg";
+
 
 export const SocialLinks = [
   {
@@ -134,43 +142,43 @@ export const resumeItem = [
 export const techs = [
   {
     id: 1,
-    src: "",
+    src: <img src={python} alt="icon" />,
     title: "Python",
     type: "Programming languages",
   },
   {
     id: 2,
-    src: "",
+    src: <img src={java} alt="icon" />,
     title: "JAVA",
     type: "Programming languages",
   },
   {
     id: 3,
-    src: "",
+    src: <img src={js} alt="icon" />,
     title: "JavaScript",
     type: "Programming languages",
   },
   {
     id: 4,
-    src: "",
+    src: <img src={react} alt="icon" />,
     title: "React",
     type: "Framework",
   },
   {
     id: 5,
-    src: "",
+    src: <img src={figma} alt="icon" />,
     title: "Figma",
     type: "Design",
   },
   {
     id: 6,
-    src: "",
+    src: <img src={mysql} alt="icon" />,
     title: "MySQL",
     type: "Database",
   },
   {
     id: 7,
-    src: "",
+    src: <img src={db} alt="icon" />,
     title: "Database Management",
     type: "Database",
   },
