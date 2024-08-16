@@ -35,6 +35,7 @@ const Home = () => {
           <p className="text-xl text-second font-semibold pt-2">
             Alejandro José Pérez Morin
           </p>
+          <p className="  font-light">alejandro.p.morin@gmail.com</p>
 
           <p className="text-four py-8 lg:pr-10 md:w-full">
             Ingeniero en Sistemas con habilidades y experiencia en desarrollo de
