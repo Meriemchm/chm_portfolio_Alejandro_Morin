@@ -231,10 +231,10 @@ export const menuItemProject = [
     id: 1,
     title: "Design",
   },
-  {
-    id: 2,
-    title: "Others",
-  },
+  // {
+  //   id: 2,
+  //   title: "Others",
+  // },
 ];
 
 export const projects = [
