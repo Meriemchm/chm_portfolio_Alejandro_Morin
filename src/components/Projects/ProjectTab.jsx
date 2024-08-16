@@ -20,8 +20,8 @@ const ProjectTab = () => {
   };
   return (
     <>
-      <div className="mx-auto md:h-full  overflow-x-scroll md:overflow-x-hidden  w-full ">
-        <div className="flex flex-row  gap-5 select-none  ">
+      <div className="mx-auto md:h-full max-w-screen-2xl  overflow-x-scroll md:overflow-x-hidden  w-full ">
+        <div className="flex flex-row  gap-5 select-none   ">
           {menuItemProject.map((item, id) => {
             return (
               <div key={id} onClick={() => handleClick(id)}>
