@@ -26,8 +26,8 @@ const SideBar = () => {
             Mi <span className="text-primary">Currículum</span>{" "}
           </p>
         </div>
-        <div data-aos="fade-up" className="flex justify-center items-center  ">
-          <div className="flex  gap-5 p-2 select-none ">
+        <div data-aos="fade-up" className="flex justify-center items-center    ">
+          <div className="flex  gap-5 p-2  select-none  ">
             {sideBarItem.map((item, id) => {
               return (
                 <div key={id} onClick={() => handleClick(id)}>
