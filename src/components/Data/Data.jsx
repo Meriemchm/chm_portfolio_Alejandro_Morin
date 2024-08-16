@@ -308,21 +308,21 @@ export const projects = [
     hdemo:
       "https://www.figma.com/proto/HzwLThLF3QBuO5AB4qVf1o/Music-Streaming-web?node-id=220-17&t=noKT4aagxAhRfVwi-1.",
   },
-  {
-    id: 5,
-    src: (
-      <img
-        src={project_5}
-        alt="project-name"
-        className="rounded-t-lg h-60 w-full object-cover"
-      />
-    ),
-    category: "Design",
-    title: "Protagonista Digital Agency",
-    description: "description",
-    hdemo:
-      "https://www.figma.com/proto/hhYNvoaVoATFhnTczX3r3A/Protagonista---Digital-Agency-%26-Portfolio?node-id=7736-2187&t=WwXlcp2hXv49CUVg-1.",
-  },
+  // {
+  //   id: 5,
+  //   src: (
+  //     <img
+  //       src={project_5}
+  //       alt="project-name"
+  //       className="rounded-t-lg h-60 w-full object-cover"
+  //     />
+  //   ),
+  //   category: "Design",
+  //   title: "Protagonista Digital Agency",
+  //   description: "description",
+  //   hdemo:
+  //     "https://www.figma.com/proto/hhYNvoaVoATFhnTczX3r3A/Protagonista---Digital-Agency-%26-Portfolio?node-id=7736-2187&t=WwXlcp2hXv49CUVg-1.",
+  // },
   {
     id: 6,
     src: (
@@ -336,7 +336,7 @@ export const projects = [
     title: "Sales crm app",
     description: "description",
     hdemo:
-      "https://www.figma.com/proto/hhYNvoaVoATFhnTczX3r3A/Protagonista---Digital-Agency-%26-Portfolio?node-id=7736-2187&t=WwXlcp2hXv49CUVg-1.",
+      "https://www.figma.com/proto/DT4yMkB1C4NOpj62pPjcqp/sales-crm-app?node-id=0-2&t=y38RRIxVxDRL9xRc-1",
   },
 ];
 
