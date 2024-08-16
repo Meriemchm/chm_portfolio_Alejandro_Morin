@@ -67,6 +67,17 @@ const Home = () => {
               </a>
             </button>
           </div>
+          <a
+            href="/Certificado.pdf"
+            download="Certificado.pdf"
+            target="_blank"
+            rel="noreferrer"
+            className="flex gap-2 hover:text-primary py-12"
+          >
+            <h2 className="self-center font-bold underline md:text-xl text-lg ">
+              Echa un vistazo a mi certificado.
+            </h2>
+          </a>
         </div>
         <div data-aos="fade-right">
           <img
