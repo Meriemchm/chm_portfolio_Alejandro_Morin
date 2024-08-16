@@ -14,6 +14,8 @@ import mysql from "../../assets/mysql.svg";
 import js from "../../assets/js.svg";
 import figma from "../../assets/figma.svg";
 import react from "../../assets/react.svg";
+import vs from "../../assets/vs.svg";
+import pycharm from "../../assets/pycharm.svg";
 
 
 export const SocialLinks = [
@@ -184,13 +186,13 @@ export const techs = [
   },
   {
     id: 8,
-    src: "",
+    src: <img src={pycharm} alt="icon" />,
     title: "PyCharm",
     type: "Environment",
   },
   {
     id: 9,
-    src: "",
+    src: <img src={vs} alt="icon" />,
     title: "Visual Studio Code",
     type: "Environment",
   },
