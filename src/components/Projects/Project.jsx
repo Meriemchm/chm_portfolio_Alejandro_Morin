@@ -20,7 +20,7 @@ const Project = () => {
             <div className="relative group ">
               {src}
               <a href={hdemo} target="_blank" className="flex">
-                <div className="absolute inset-0 rounded-lg bg-black bg-opacity-50 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center cursor-pointer select-none">
+                <div className="absolute inset-0 rounded-t-lg bg-black bg-opacity-50 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center cursor-pointer select-none">
                   Saber más
                 </div>
               </a>

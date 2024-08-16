@@ -2,7 +2,7 @@ import mail from "../../assets/mail.svg";
 import linkedin from "../../assets/linkedin.svg";
 import education from "../../assets/education.svg";
 import experience from "../../assets/experience.svg";
-import project_1 from "../../assets/project_1.svg";
+import project_1 from "../../assets/project_1.png";
 import project_2 from "../../assets/project_2.svg";
 import project_3 from "../../assets/project_3.svg";
 import project_4 from "../../assets/project_4.svg";
@@ -20,7 +20,6 @@ import trsl from "../../assets/trsl.svg";
 import msdr from "../../assets/msdr.svg";
 import microbit from "../../assets/microbit.svg";
 import op from "../../assets/op.svg";
-
 
 export const SocialLinks = [
   {
@@ -233,10 +232,10 @@ export const projects = [
       <img
         src={project_1}
         alt="project-name"
-        className="rounded-lg h-60 w-full object-cover"
+        className="rounded-t-lg h-60 w-full object-cover"
       />
     ),
-    title: "title",
+    title: "Template",
     description: "description",
     hdemo:
       "https://www.figma.com/proto/XjC8TzZZFzMUd1TV7ixUhZ/Template?node-id=15-2&t=jnK9ig6FLx1mDbZa-1",
@@ -247,10 +246,10 @@ export const projects = [
       <img
         src={project_2}
         alt="project-name"
-        className="rounded-lg h-60 w-full object-cover"
+        className="rounded-t-lg h-60 w-full object-cover"
       />
     ),
-    title: "title",
+    title: "Ads Dashboard UI KIT",
     description: "description",
     hdemo:
       "https://www.figma.com/proto/sEzwef47N9UPEymIQUGW1N/Ads-Dashboard-UI-KIT?node-id=121-310&t=SwW0fMUbS4EzKEUR-1.",
@@ -261,10 +260,10 @@ export const projects = [
       <img
         src={project_3}
         alt="project-name"
-        className="rounded-lg h-60 w-full object-cover"
+        className="rounded-t-lg h-60 w-full object-cover"
       />
     ),
-    title: "title",
+    title: "Remmus",
     description: "description",
     hdemo:
       "https://www.figma.com/proto/k2TNlBwST4yRgnWawyGV7O/Remmus?node-id=103-2&t=bXQ2PsQf74QbtzDd-1.",
@@ -275,10 +274,10 @@ export const projects = [
       <img
         src={project_4}
         alt="project-name"
-        className="rounded-lg h-60 w-full object-cover"
+        className="rounded-t-lg h-60 w-full object-cover"
       />
     ),
-    title: "title",
+    title: "Music Streaming web",
     description: "description",
     hdemo:
       "https://www.figma.com/proto/HzwLThLF3QBuO5AB4qVf1o/Music-Streaming-web?node-id=220-17&t=noKT4aagxAhRfVwi-1.",
@@ -289,10 +288,10 @@ export const projects = [
       <img
         src={project_5}
         alt="project-name"
-        className="rounded-lg h-60 w-full object-cover"
+        className="rounded-t-lg h-60 w-full object-cover"
       />
     ),
-    title: "title",
+    title: "Protagonista Digital Agency",
     description: "description",
     hdemo:
       "https://www.figma.com/proto/hhYNvoaVoATFhnTczX3r3A/Protagonista---Digital-Agency-%26-Portfolio?node-id=7736-2187&t=WwXlcp2hXv49CUVg-1.",
