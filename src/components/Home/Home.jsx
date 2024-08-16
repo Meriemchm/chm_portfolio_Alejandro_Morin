@@ -18,7 +18,6 @@ const Home = () => {
                   <li key={id} className="mr-5 hover:scale-105 duration-200">
                     <a
                       href={href ? href : "/"}
-                      
                       target="_blank"
                       rel="noreferrer"
                       className="flex justify-between items-center w-full bg-primary p-4 rounded-full cursor-pointer "
@@ -38,14 +37,11 @@ const Home = () => {
           </p>
 
           <p className="text-four py-8 lg:pr-10 md:w-full">
-            Técnico en Ingeniería de Sistemas con gran interés en el desarrollo
-            y mantenimiento de sistemas internos y servicios web AWS. Tengo una
-            sólida capacidad para adaptarme a diversos entornos tecnológicos y
-            aportar soluciones innovadoras. Me destaco por mi capacidad de
-            trabajo en equipo y mi constante entusiasmo por aprender y
-            perfeccionar mis habilidades técnicas. Busco una oportunidad laboral
-            que me permita adquirir mayor experiencia en el campo de los
-            sistemas internos y servicios web.
+            Ingeniero en Sistemas con habilidades y experiencia en desarrollo de
+            interfaces y servicios web. Competente en resolución de problemas,
+            trabajo en equipo, organización, análisis y creatividad. Busco
+            ampliar mi experiencia en desarrollo Front End, Back End y servicios
+            web.
           </p>
 
           <div className="flex gap-5">
