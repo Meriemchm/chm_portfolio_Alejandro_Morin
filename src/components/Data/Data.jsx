@@ -16,6 +16,10 @@ import figma from "../../assets/figma.svg";
 import react from "../../assets/react.svg";
 import vs from "../../assets/vs.svg";
 import pycharm from "../../assets/pycharm.svg";
+import trsl from "../../assets/trsl.svg";
+import msdr from "../../assets/msdr.svg";
+import microbit from "../../assets/microbit.svg";
+import op from "../../assets/op.svg";
 
 
 export const SocialLinks = [
@@ -198,25 +202,25 @@ export const techs = [
   },
   {
     id: 10,
-    src: "",
+    src: <img src={microbit} alt="icon" />,
     title: "Microsoft Make Code",
     type: "others",
   },
   {
     id: 11,
-    src: "",
+    src: <img src={msdr} alt="icon" />,
     title: "MS Office / Google Drive",
     type: "others",
   },
   {
     id: 12,
-    src: "",
+    src: <img src={trsl} alt="icon" />,
     title: "Slack, Trello, Chime",
     type: "others",
   },
   {
     id: 13,
-    src: "",
+    src: <img src={op} alt="icon" />,
     title: "Operating System Knowledge",
     type: "others",
   },

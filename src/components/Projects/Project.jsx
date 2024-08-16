@@ -19,12 +19,11 @@ const Project = () => {
           >
             <div className="relative group ">
               {src}
-
-              <div className="absolute inset-0 rounded-lg bg-black bg-opacity-50 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center cursor-pointer select-none">
-                <a href={hdemo} target="_blank" className="flex">
+              <a href={hdemo} target="_blank" className="flex">
+                <div className="absolute inset-0 rounded-lg bg-black bg-opacity-50 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center cursor-pointer select-none">
                   Saber más
-                </a>
-              </div>
+                </div>
+              </a>
             </div>
 
             <div className="mx-5 flex flex-col text-gray-800 my-4 justify-between">
