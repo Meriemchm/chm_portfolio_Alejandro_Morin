@@ -71,7 +71,7 @@ const Home = () => {
             className="flex gap-2 hover:text-primary py-12"
           >
             <h2 className="self-center font-bold underline md:text-xl text-lg ">
-              Echa un vistazo a mi certificado.
+              Echa un vistazo a mis certificados.
             </h2>
           </a>
         </div>
