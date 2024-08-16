@@ -8,7 +8,7 @@ import Projects from "./components/Projects/Projects";
 
 const App = () => {
   return (
-    <div>
+    <div className=" overflow-hidden">
       <NavBar />
       <Home />
       <SideBar />

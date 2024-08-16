@@ -3,6 +3,10 @@ import linkedin from "../../assets/linkedin.svg";
 import education from "../../assets/education.svg";
 import experience from "../../assets/experience.svg";
 import project_1 from "../../assets/project_1.svg";
+import project_2 from "../../assets/project_2.svg";
+import project_3 from "../../assets/project_3.svg";
+import project_4 from "../../assets/project_4.svg";
+import project_5 from "../../assets/project_5.svg";
 
 export const SocialLinks = [
   {
@@ -97,7 +101,7 @@ export const resumeItem = [
     category: "Educación",
     title: "Software Engineer, Beginner programming training",
     date: "2023-04 - 2023-10",
-    description: "",
+    description: "ONE-Oracle Next Education / Alura LATAM, México",
     style: "",
   },
   {
@@ -106,7 +110,7 @@ export const resumeItem = [
     title:
       "Software Development, Advanced technician diploma Software Development",
     date: "2022-01 - 2023-02 ",
-    description: "",
+    description: "CENFOTEC, Costa Rica",
     style: "",
   },
   {
@@ -114,7 +118,7 @@ export const resumeItem = [
     category: "Educación",
     title: " Economy, Business Administration",
     date: "2021-02 - present",
-    description: "",
+    description: "UNINI México, México",
     style: "",
   },
   {
@@ -122,7 +126,7 @@ export const resumeItem = [
     category: "Educación",
     title: "High School Diploma",
     date: "2003-02 - 2008-11 ",
-    description: "",
+    description: "Colegio Teresiano, Managua, Nicaragua",
     style: "",
   },
 ];
@@ -227,7 +231,7 @@ export const projects = [
     id: 2,
     src: (
       <img
-        src={project_1}
+        src={project_2}
         alt="project-name"
         className="rounded-lg h-60 w-full object-cover"
       />
@@ -241,7 +245,7 @@ export const projects = [
     id: 3,
     src: (
       <img
-        src={project_1}
+        src={project_3}
         alt="project-name"
         className="rounded-lg h-60 w-full object-cover"
       />
@@ -255,7 +259,7 @@ export const projects = [
     id: 4,
     src: (
       <img
-        src={project_1}
+        src={project_4}
         alt="project-name"
         className="rounded-lg h-60 w-full object-cover"
       />
@@ -269,7 +273,7 @@ export const projects = [
     id: 4,
     src: (
       <img
-        src={project_1}
+        src={project_5}
         alt="project-name"
         className="rounded-lg h-60 w-full object-cover"
       />

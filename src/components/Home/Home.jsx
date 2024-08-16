@@ -33,7 +33,9 @@ const Home = () => {
           <h2 className="text-four text-2xl md:text-5xl font-bol">
             Bienvenido !{" "}
           </h2>
-          <p className="text-xl text-second font-semibold pt-2">Alejandro José Pérez Morin</p>
+          <p className="text-xl text-second font-semibold pt-2">
+            Alejandro José Pérez Morin
+          </p>
 
           <p className="text-four py-8 lg:pr-10 md:w-full">
             Técnico en Ingeniería de Sistemas con gran interés en el desarrollo
@@ -49,14 +51,14 @@ const Home = () => {
           <div className="flex gap-5">
             <button className="bg-second  border-[1px] border-second text-white px-5 py-2 rounded-md   text-bold duration-200 hover:scale-105  ">
               {" "}
-              <Link to="contact" smooth={true} duration={500}>
-                contact me
+              <Link to="Contacto" smooth={true} duration={500}>
+                Contáctame
               </Link>
             </button>
             <button className="bg-tansparent  border-[1px] border-second text-four px-5 py-2 rounded-md text-bold duration-200 hover:scale-105  ">
               {" "}
-              <a href="/" download='cv.zip' target="_blank" rel="noreferrer">
-                my CV
+              <a href="/" download="cv.zip" target="_blank" rel="noreferrer">
+                mi currículum
               </a>
             </button>
           </div>

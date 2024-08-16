@@ -21,10 +21,12 @@ const SideBar = () => {
   return (
     <div name="Currículum" className="bg-white min-h-screen">
       <div className="max-w-screen-lg  mx-auto flex flex-col justify-center items-center h-full ">
-        <p className="text-4xl md:text-4xl font-semibold text-five text-center py-5 ">
-          Mi <span className="text-primary">Currículum</span>{" "}
-        </p>
-        <div className="flex justify-center items-center  ">
+        <div data-aos="fade-up">
+          <p className="text-4xl md:text-4xl font-semibold text-five text-center py-5 ">
+            Mi <span className="text-primary">Currículum</span>{" "}
+          </p>
+        </div>
+        <div data-aos="fade-up" className="flex justify-center items-center  ">
           <div className="flex  gap-5 p-2 select-none ">
             {sideBarItem.map((item, id) => {
               return (
