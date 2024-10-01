@@ -13,6 +13,11 @@ import java from "../../assets/java.svg";
 import db from "../../assets/db.svg";
 import mysql from "../../assets/mysql.svg";
 import js from "../../assets/js.svg";
+import php from "../../assets/php_svgrepo.svg";
+import boot from "../../assets/boot.svg";
+import mongo from "../../assets/mongo.svg";
+import maria from "../../assets/maria.svg";
+import cpanel from "../../assets/cpanel_svgrepo.svg";
 import figma from "../../assets/figma.svg";
 import react from "../../assets/react.svg";
 import vs from "../../assets/vs.svg";
@@ -26,6 +31,10 @@ import clinic from "../../assets/clinic_appointment.webp";
 import CRM from "../../assets/CRM.webp";
 import ERP from "../../assets/ERP.webp";
 import POS from "../../assets/POS.webp";
+import host from "../../assets/hostinger.svg";
+import meta from "../../assets/meta.svg";
+import hubspot from "../../assets/hubspot_svgrepo.svg";
+import node from "../../assets/node-js_svgrepo.svg";
 
 export const SocialLinks = [
   {
@@ -179,9 +188,21 @@ export const techs = [
     type: "Programming languages",
   },
   {
+    id: 14,
+    src: <img src={php} alt="icon" />,
+    title: "Php",
+    type: "Programming languages",
+  },
+  {
     id: 4,
     src: <img src={react} alt="icon" />,
     title: "React",
+    type: "Framework",
+  },
+  {
+    id: 15,
+    src: <img src={boot} alt="icon" />,
+    title: "Bootstrap",
     type: "Framework",
   },
   {
@@ -206,6 +227,12 @@ export const techs = [
     id: 8,
     src: <img src={pycharm} alt="icon" />,
     title: "PyCharm",
+    type: "Environment",
+  },
+  {
+    id: 23,
+    src: <img src={node} alt="icon" />,
+    title: "Node js",
     type: "Environment",
   },
   {
@@ -236,6 +263,48 @@ export const techs = [
     id: 13,
     src: <img src={op} alt="icon" />,
     title: "Operating System Knowledge",
+    type: "others",
+  },
+  {
+    id: 16,
+    src: <img src={mongo} alt="icon" />,
+    title: "Mongo DB",
+    type: "Database",
+  },
+  {
+    id: 17,
+    src: <img src={maria} alt="icon" />,
+    title: "Maria DB",
+    type: "Database",
+  },
+  {
+    id: 18,
+    src: <img src={cpanel} alt="icon" />,
+    title: "Cpanel",
+    type: "others",
+  },
+  {
+    id: 19,
+    src: <img src={host} alt="icon" />,
+    title: "hostinger",
+    type: "others",
+  },
+  {
+    id: 20,
+    src: <img src={hubspot} alt="icon" />,
+    title: "hubspot",
+    type: "others",
+  },
+  {
+    id: 21,
+    src: <img src={op} alt="icon" />,
+    title: "sunwise",
+    type: "others",
+  },
+  {
+    id: 22,
+    src: <img src={meta} alt="icon" />,
+    title: "Meta business development",
     type: "others",
   },
 ];
