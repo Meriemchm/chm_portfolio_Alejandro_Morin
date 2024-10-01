@@ -22,6 +22,10 @@ import msdr from "../../assets/msdr.svg";
 import microbit from "../../assets/microbit.svg";
 import op from "../../assets/op.svg";
 import github from "../../assets/github.svg";
+import clinic from "../../assets/clinic_appointment.webp";
+import CRM from "../../assets/CRM.webp";
+import ERP from "../../assets/ERP.webp";
+import POS from "../../assets/POS.webp";
 
 export const SocialLinks = [
   {
@@ -241,10 +245,10 @@ export const menuItemProject = [
     id: 1,
     title: "Design",
   },
-  // {
-  //   id: 2,
-  //   title: "Others",
-  // },
+  {
+    id: 2,
+    title: "WDev",
+  },
 ];
 
 export const projects = [
@@ -334,6 +338,67 @@ export const projects = [
     ),
     category: "Design",
     title: "Sales crm app",
+    description: "description",
+    hdemo:
+      "https://www.figma.com/proto/DT4yMkB1C4NOpj62pPjcqp/sales-crm-app?node-id=0-2&t=y38RRIxVxDRL9xRc-1",
+  },
+
+  {
+    id: 7,
+    src: (
+      <img
+        src={CRM}
+        alt="project-name"
+        className="rounded-t-lg h-60 w-full object-cover"
+      />
+    ),
+    category: "WDev",
+    title: "CRM - Project Management",
+    description: "description",
+    hdemo:
+      "https://www.figma.com/proto/DT4yMkB1C4NOpj62pPjcqp/sales-crm-app?node-id=0-2&t=y38RRIxVxDRL9xRc-1",
+  },
+  {
+    id: 8,
+    src: (
+      <img
+        src={ERP}
+        alt="project-name"
+        className="rounded-t-lg h-60 w-full object-cover"
+      />
+    ),
+    category: "WDev",
+    title: "ERP - HR",
+    description: "description",
+    hdemo:
+      "https://www.figma.com/proto/DT4yMkB1C4NOpj62pPjcqp/sales-crm-app?node-id=0-2&t=y38RRIxVxDRL9xRc-1",
+  },
+  {
+    id: 9,
+    src: (
+      <img
+        src={clinic}
+        alt="project-name"
+        className="rounded-t-lg h-60 w-full object-cover"
+      />
+    ),
+    category: "WDev",
+    title: "Clinic Appointment Management",
+    description: "description",
+    hdemo:
+      "https://www.figma.com/proto/DT4yMkB1C4NOpj62pPjcqp/sales-crm-app?node-id=0-2&t=y38RRIxVxDRL9xRc-1",
+  },
+  {
+    id: 10,
+    src: (
+      <img
+        src={POS}
+        alt="project-name"
+        className="rounded-t-lg h-60 w-full object-cover"
+      />
+    ),
+    category: "WDev",
+    title: "POS - Point of sales",
     description: "description",
     hdemo:
       "https://www.figma.com/proto/DT4yMkB1C4NOpj62pPjcqp/sales-crm-app?node-id=0-2&t=y38RRIxVxDRL9xRc-1",

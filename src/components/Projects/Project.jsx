@@ -4,6 +4,9 @@ import share from "../../assets/share.svg";
 
 const Project = ({ category }) => {
   const items = projects.filter((item) => item.category === category);
+  const [truncatedStates, setTruncatedStates] = useState(
+    items.map(() => true) 
+  );
 
   return (
     <div className="mx-auto grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 text-center py-8 px-0 justify-center items-center min-h-screen ">
@@ -13,11 +16,6 @@ const Project = ({ category }) => {
         </div>
       ) : (
         items.map(({ id, src, title, description, hdemo }) => {
-          const [isTruncated, setIsTruncated] = useState(true);
-
-          const toggleTruncate = () => {
-            setIsTruncated(!isTruncated);
-          };
           return (
             <div
               data-aos="fade-up"
@@ -48,7 +46,7 @@ const Project = ({ category }) => {
                     <button
                       className="text-bold pl-1"
                       onClick={(e) => {
-                        e.stopPropagation(); // Arrête la propagation de l'événement
+                        e.stopPropagation(); 
                         toggleTruncate();
                       }}
                     >

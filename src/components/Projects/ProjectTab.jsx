@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { menuItemProject } from "../Data/Data";
 import Project from "../Projects/Project";
 
-// you can add multiple categories of different projects
+
 
 const activeButton = "bg-four";
 const activeColor = "bg-four/50";
