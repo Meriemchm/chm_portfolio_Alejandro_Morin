@@ -1,12 +1,14 @@
 import React, { useState } from "react";
 import { projects } from "../Data/Data";
 import share from "../../assets/share.svg";
+import github from "../../assets/github.svg";
 
 const Project = ({ category }) => {
   const items = projects.filter((item) => item.category === category);
   const [truncatedStates, setTruncatedStates] = useState(
     items.map(() => true) 
   );
+  const text_demo = category === 'Design' ? 'Demo' : 'Github'
 
   return (
     <div className="mx-auto grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 text-center py-8 px-0 justify-center items-center min-h-screen ">
@@ -64,10 +66,12 @@ const Project = ({ category }) => {
                         rel="noopener noreferrer"
                         className="flex"
                       >
-                        Demo{" "}
-                        <span className="self-center pl-2">
+                        {text_demo}{" "}
+                        {category === 'Design' ? <span className="self-center pl-2">
                           <img src={share} alt="share" />
-                        </span>{" "}
+                        </span> : <span className="self-center pl-2">
+                          <img src={github} alt="share" />
+                        </span> }{" "}
                       </a>
                     </button>
                   )}
