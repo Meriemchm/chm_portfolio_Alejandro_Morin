@@ -35,6 +35,7 @@ import host from "../../assets/hostinger.svg";
 import meta from "../../assets/meta.svg";
 import hubspot from "../../assets/hubspot_svgrepo.svg";
 import node from "../../assets/node-js_svgrepo.svg";
+import sunwise from "../../assets/sunwise.svg";
 
 export const SocialLinks = [
   {
@@ -297,7 +298,7 @@ export const techs = [
   },
   {
     id: 21,
-    src: <img src={op} alt="icon" />,
+    src: <img src={sunwise} alt="icon" />,
     title: "sunwise",
     type: "others",
   },
