@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { projects } from "../Data/Data";
 import share from "../../assets/share.svg";
-import github from "../../assets/github.svg";
+import github from "../../assets/github2.svg";
 
 const Project = ({ category }) => {
   const items = projects.filter((item) => item.category === category);
